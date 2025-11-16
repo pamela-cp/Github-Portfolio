@@ -2,5 +2,5 @@
 # Required for Jekyll to process SCSS
 ---
 
-@import "animate.min";   // import your animate.css
+@import "../css/animate.min.css";   // import your animate.css
 @import "style";         // import your main Phantom style
