@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Phantom Jekyll Theme"
   spec.homepage      = "https://github.com/pamela-cp/Github-Portfolio"
+https://pamela-cp.github.io/Github-Portfolio/
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
