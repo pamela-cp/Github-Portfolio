@@ -2,8 +2,10 @@
 # Required for Jekyll to process SCSS
 ---
 
-/* Import animate.css (plain CSS file) */
+/* Plain CSS in same folder */
 @import "animate.min.css";
 
-/* Import your Phantom SCSS */
-@import "style";  // './' ensures Jekyll looks in the same folder
+/* SCSS partials in _sass/ (do NOT include _ or .scss) */
+@import "bootstrap";
+@import "mixins";
+@import "style";
