@@ -6,4 +6,4 @@
 @import "animate.min.css";
 
 /* Import your Phantom SCSS */
-@import "./style.scss";  // './' ensures Jekyll looks in the same folder
+@import "_style";  // './' ensures Jekyll looks in the same folder
