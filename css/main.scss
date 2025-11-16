@@ -1,6 +1,7 @@
 ---
 ---
 
-@import "style";            // imports _style.scss from _sass/
-@import "bootstrap";        // imports _bootstrap.scss from _sass/
-@import "mixins";           // imports _mixins.scss from _sass/
+/* Import your partials from _sass */
+@import "bootstrap";
+@import "mixins";
+@import "style";
